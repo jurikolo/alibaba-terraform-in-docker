@@ -1,5 +1,7 @@
 FROM fedora:34
 
+RUN mkdir /root/terraform
+COPY files/terraform/* /root/terraform/
 COPY files/repositories/* /etc/yum.repos.d/
 COPY files/scripts/* /opt/
 
@@ -13,8 +15,7 @@ RUN cat /opt/bash-git-prompt.sh >> /root/.bashrc
 # Use vim instead of vi by default
 RUN echo "alias vi='/bin/vim'"
 
-RUN mkdir /root/terraform
 WORKDIR /root/terraform
-RUN echo "provider \"alicloud\" { }" > main.tf && terraform init
+RUN terraform init
 
 CMD /bin/bash
