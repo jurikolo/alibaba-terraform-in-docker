@@ -1,5 +1,7 @@
 # Changelog
 
+* 25-07-2021, version 0.0.7
+  * [alicloud v1.128.0](https://github.com/aliyun/terraform-provider-alicloud/releases/tag/v1.128.0)
 * 23-07-2021, version 0.0.6
   * fix how alicloud binaries are stored
 * 23-07-2021, version 0.0.5
