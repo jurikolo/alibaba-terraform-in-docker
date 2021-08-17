@@ -1,5 +1,7 @@
 # Changelog
 
+* 17-08-2021, version 0.0.11
+  * [alicloud v1.131.0](https://github.com/aliyun/terraform-provider-alicloud/releases/tag/v1.131.0)
 * 08-08-2021, version 0.0.10
   * [alicloud v1.130.0](https://github.com/aliyun/terraform-provider-alicloud/releases/tag/v1.130.0)
   * added `iputils` and `netcat` packages
