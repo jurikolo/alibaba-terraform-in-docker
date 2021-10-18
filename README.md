@@ -12,6 +12,16 @@ kubectl run mypod -i --rm --image=jurikolo/alibaba-terraform-in-k8s:latest --env
 ```
 
 ## Build your own container
+### Using podman
+If you want to build you own container based on this repo, just fork the repository, modify `Dockerfile` and run following commands:
+```bash
+podman build --no-cache -t xyz/alibaba-terraform-in-k8s:0.0.1 .
+podman tag xyz/alibaba-terraform-in-k8s:0.0.1 xyz/alibaba-terraform-in-k8s:latest
+podman push docker.io/xyz/alibaba-terraform-in-k8s:0.0.1
+podman push docker.io/xyz/alibaba-terraform-in-k8s:latest
+```
+
+### Using legacy docker
 
 If you want to build you own container based on this repo, just fork the repository, modify `Dockerfile` and run following commands:
 ```bash
