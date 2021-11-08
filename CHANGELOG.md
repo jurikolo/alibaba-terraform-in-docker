@@ -1,5 +1,7 @@
 # Changelog
 
+* 08-11-2021, version 0.0.28
+  * [alicloud v1.142.0](https://github.com/aliyun/terraform-provider-alicloud/releases/tag/v1.142.0)
 * 31-10-2021, version 0.0.27
   * [alicloud v1.141.0](https://github.com/aliyun/terraform-provider-alicloud/releases/tag/v1.141.0)
 * 29-10-2021, version 0.0.26
