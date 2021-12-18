@@ -1,5 +1,7 @@
 # Changelog
 
+* 18-12-2021, version 0.0.36
+  * [terraform 1.1.2](https://github.com/hashicorp/terraform/releases/tag/v1.1.2)
 * 16-12-2021, version 0.0.35
   * [terraform 1.1.1](https://github.com/hashicorp/terraform/releases/tag/v1.1.1)
 * 12-12-2021, version 0.0.34
