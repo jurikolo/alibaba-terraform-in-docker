@@ -1,5 +1,8 @@
 # Changelog
 
+* 21-09-2022, version 0.0.56
+  * [alicloud v1.186.0](https://github.com/aliyun/terraform-provider-alicloud/releases/tag/v1.186.0)
+  * [terraform 1.3.0](https://github.com/hashicorp/terraform/releases/tag/v1.3.0)
 * 08-09-2022, version 0.0.55
   * [alicloud v1.184.0](https://github.com/aliyun/terraform-provider-alicloud/releases/tag/v1.184.0)
   * [terraform 1.2.9](https://github.com/hashicorp/terraform/releases/tag/v1.2.9)
