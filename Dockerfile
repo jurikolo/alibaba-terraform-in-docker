@@ -1,4 +1,4 @@
-FROM fedora:36
+FROM fedora:37
 
 RUN mkdir /root/terraform
 COPY files/terraform/* /root/terraform/
