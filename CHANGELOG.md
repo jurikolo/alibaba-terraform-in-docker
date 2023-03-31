@@ -1,5 +1,8 @@
 # Changelog
 
+* 31-03-2023, version 0.0.64
+  * [alicloud v1.201.2](https://github.com/aliyun/terraform-provider-alicloud/releases/tag/v1.201.2)
+  * [terraform 1.4.4](https://github.com/hashicorp/terraform/releases/tag/v1.4.4)
 * 11-02-2023, version 0.0.63
   * Fedora 37 as base image
   * [alicloud v1.198.0](https://github.com/aliyun/terraform-provider-alicloud/releases/tag/v1.198.0)
