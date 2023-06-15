@@ -1,13 +1,13 @@
 terraform {
-  required_version = ">= 1.4.6"
+  required_version = ">= 1.5.0"
   required_providers {
     alicloud = {
       source = "aliyun/alicloud"
-      version = "~> 1.203.0"
+      version = "~> 1.206.0"
     }
     hashicorp-alicloud = {
       source = "hashicorp/alicloud"
-      version = "~> 1.203.0"
+      version = "~> 1.206.0"
     }
     random = {
       source = "hashicorp/random"
